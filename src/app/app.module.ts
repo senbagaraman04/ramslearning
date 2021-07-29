@@ -29,7 +29,7 @@ import { CustomMaterialModule } from './core/material.module';
 import { AppRoutingModule } from './core/app.routing.module';
 import {FormsModule} from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { CommonModule } from "@angular/common";
+import { CommonModule } from '@angular/common';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
