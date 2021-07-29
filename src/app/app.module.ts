@@ -28,10 +28,12 @@ import { NgModule } from '@angular/core';
 import { CustomMaterialModule } from './core/material.module';
 import { AppRoutingModule } from './core/app.routing.module';
 import {FormsModule} from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { CommonModule } from "@angular/common";
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
- import { CourseListComponent } from './course-list/course-list.component';
+import { CourseListComponent } from './course-list/course-list.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +46,8 @@ import { LoginComponent } from './login/login.component';
     BrowserAnimationsModule,
     CustomMaterialModule,
     FormsModule,
+    HttpClientModule,
+    CommonModule,
     AppRoutingModule
   ],
   providers: [],
